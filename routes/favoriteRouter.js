@@ -6,6 +6,7 @@ const cors = require('./cors');
 
 const favoriteRouter = express.Router();
 //partnerRouter.use(bodyParser.json());
+
 //Start
 favoriteRouter.route('/')
 .options(cors.corsWithOptions, (req, res) => {
